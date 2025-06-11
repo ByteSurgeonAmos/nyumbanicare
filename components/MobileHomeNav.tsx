@@ -16,7 +16,7 @@ const MobileHomeNav = () => {
   const [isSheetOpen, setIsSheetOpen] = useState(false);
 
   return (
-    <div className="md:hidden">
+    <div className="lg:hidden">
       <Sheet open={isSheetOpen} onOpenChange={setIsSheetOpen}>
         <SheetTrigger className="flex justify-center items-center ml-auto">
           <CiMenuFries className="text-[32px] text-teal-600" />
@@ -34,6 +34,7 @@ const MobileHomeNav = () => {
               <Link
                 href={link.href}
                 key={index}
+                onClick={() => setIsSheetOpen(false)}
                 className={`${link.name === "Sign Up" ? "bg-teal-600 text-xl hover:bg-teal-700 text-white rounded-full py-2 px-3" : "font-medium hover:text-teal-600 transition-colors"}`}
               >
                 <h2>{link.name}</h2>
