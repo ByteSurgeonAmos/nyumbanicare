@@ -5,7 +5,8 @@ import { Heart, Smartphone, Stethoscope, CheckCircle, TestTube, Pill, FileText }
 import Image from "next/image"
 import Link from "next/link";
 import HomeNav from "./HomeNav"
-import MobileHomeNav from "./MobileHomeNav"
+import MobileHomeNav from "./MobileHomeNav";
+import { SiFacebook, SiLinkedin, SiX, SiInstagram } from "react-icons/si";
 
 const services = [
   { 
@@ -83,10 +84,10 @@ const howItWorks = [
 ];
 
 const socials = [
-  { name: "Facebook", href: "#", image: "/logos/facebook.svg" },
-  { name: "X", href: "#", image: "/logos/x.svg" },
-  { name: "Instagram", href: "#", image: "/logos/instagram.svg" },
-  { name: "LinkedIn", href: "#", image: "/logos/linkedin.svg" },
+  { name: "Facebook", href: "#", image: SiFacebook },
+  { name: "X", href: "#", image: SiX },
+  { name: "Instagram", href: "#", image: SiInstagram },
+  { name: "LinkedIn", href: "#", image: SiLinkedin },
 ];
 
 export default function Component() {
@@ -330,17 +331,11 @@ export default function Component() {
                   <a
                     key={index}
                     href={item.href}
-                    className="text-gray-500 hover:text-teal-600"
+                    className="text-gray-500 ml-3 hover:text-teal-600"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <Image
-                      width={24}
-                      height={24}
-                      alt={item.name}
-                      src={item.image}
-                      className="text-neutral-900 hover:text-teal-600"
-                    />
+                    <item.image size={24} />
                     <span className="sr-only">{item.name}</span>
                   </a>
                 ))}
