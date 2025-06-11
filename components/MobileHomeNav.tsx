@@ -16,7 +16,7 @@ const MobileHomeNav = () => {
   const [isSheetOpen, setIsSheetOpen] = useState(false);
 
   return (
-    <div className="md:hidden">
+    <div className="lg:hidden">
       <Sheet open={isSheetOpen} onOpenChange={setIsSheetOpen}>
         <SheetTrigger className="flex justify-center items-center ml-auto">
           <CiMenuFries className="text-[32px] text-teal-600" />

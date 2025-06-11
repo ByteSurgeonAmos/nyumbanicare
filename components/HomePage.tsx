@@ -90,33 +90,33 @@ export default function Component() {
   return (
     <div className="flex flex-col min-h-screen bg-[#fffff0]">
       <main className="flex-1">
-        <section className="w-full py-12 md:py-16">
-          <div className="mx-8 px-4 md:px-6">
-            <div className="flex flex-col md:flex-row items-center">
+        <section className="w-full py-12 lg:py-16">
+          <div className="mx-8 px-4 lg:px-6">
+            <div className="flex flex-col lg:flex-row items-center">
               <div className="flex flex-col justify-center space-y-4">
                 <div className="flex flex-col items-center space-y-2">
-                  <div className="flex flex-col items-center md:items-start">
-                    <p className="inline-block rounded-full bg-[#CBF8CB] px-3 py-1 text-xs md:text-sm text-[#00796B] md:ml-10 mb-2">
+                  <div className="flex flex-col items-center lg:items-start">
+                    <p className="inline-block rounded-full bg-[#CBF8CB] px-3 py-1 text-xs lg:text-sm text-[#00796B] lg:ml-10 mb-2">
                       Revolutionizing healthcare in Africa
                     </p>
-                    <h1 className="text-4xl text-center font-bold tracking-tighter md:text-7xl text-gray-900 py-2">
+                    <h1 className="text-4xl text-center font-bold tracking-tighter lg:text-7xl text-gray-900 py-2">
                       Your digital healthcare companion.
                     </h1>
                   </div>
-                  <h2 className="text-2xl md:text-5xl text-teal-600 font-bold">Accessible, Affordable, Anywhere</h2>
-                  <p className="text-black text-lg md:text-2xl font-medium max-w-[600px] text-center">
+                  <h2 className="text-2xl lg:text-5xl text-teal-600 font-bold">Accessible, Affordable, Anywhere</h2>
+                  <p className="text-black text-lg lg:text-2xl font-medium max-w-[600px] text-center">
                     From at-home testing kits, and lab request to prescriptions and tele consultations, Nyumbani Care
                     brings health to your doorstep. Whether you need to test, treat, consult or refill. We are more than
                     a service we're your trusted partner in health, every step of the way right from the comfort of your
                     home.
                   </p>
                 </div>
-                <div className="flex flex-wrap gap-4 justify-center md:items-start">
-                  <button className="bg-[#00796B] text-xl md:text-2xl hover:bg-teal-700 text-white rounded-full  px-3 py-2 md:w-[200px] md:h-[72px]">
+                <div className="flex flex-wrap gap-4 justify-center lg:items-start">
+                  <button className="bg-[#00796B] text-xl lg:text-2xl hover:bg-teal-700 text-white rounded-full  px-3 py-2 lg:w-[200px] lg:h-[72px]">
                     Join Beta
                   </button>
                   <button
-                    className="outline outline-[#14AF14] text-[#14AF14] text-xl md:text-2xl hover:bg-teal-50 bg-white rounded-full px-3 py-2 md:w-[200px] md:h-[72px]"
+                    className="outline outline-[#14AF14] text-[#14AF14] text-xl lg:text-2xl hover:bg-teal-50 bg-white rounded-full px-3 py-2 lg:w-[200px] lg:h-[72px]"
                   >
                     Take Survey
                   </button>
@@ -136,8 +136,8 @@ export default function Component() {
         </section>
 
         {/* CareSense Teaser */}
-        <section className="w-full py-12 md:py-16">
-          <div className="mx-8 px-4 md:px-6">
+        <section className="w-full py-12 lg:py-16">
+          <div className="mx-8 px-4 lg:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center mb-8">
               <div className="inline-block rounded-full bg-[#CBF8CB] px-3 py-1 text-sm text-teal-700">
                 Introducing CareSense
@@ -145,12 +145,12 @@ export default function Component() {
               <h2 className="text-4xl font-bold tracking-tighter sm:text-7xl">
                 Your Smartphone, Your Portable Clinic
               </h2>
-              <p className="md:text-2xl max-w-[800px]">
+              <p className="lg:text-2xl max-w-[800px]">
                 Scan and interpret rapid tests directly through your smartphone. Get instant results and store them
                 securely in your health profile.
               </p>
             </div>
-            <div className="grid md:grid-cols-2 gap-8 items-center">
+            <div className="grid lg:grid-cols-2 gap-8 items-center">
               <div className="space-y-6">
                 <div className="flex items-start gap-4">
                   <div className="mt-1">
@@ -204,13 +204,13 @@ export default function Component() {
         </section>
 
         {/* Services Section */}
-        <section id="services" className="w-full py-12 md:py-16 bg-[#EBFEEB]">
-          <div className="container px-4 md:px-6">
+        <section id="services" className="w-full py-12 lg:py-16 bg-[#EBFEEB]">
+          <div className="container px-4 lg:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center mb-8">
-              <h2 className="text-4xl font-bold tracking-tighter md:text-7xl text-gray-900">
+              <h2 className="text-4xl font-bold tracking-tighter lg:text-7xl text-gray-900">
                 Comprehensive Healthcare Services
               </h2>
-              <p className="text-gray-600 md:text-xl max-w-[800px]">
+              <p className="text-gray-600 lg:text-xl max-w-[800px]">
                 From at-home diagnostics to teleconsultations, we bring quality healthcare directly to you.
               </p>
             </div>
@@ -239,8 +239,8 @@ export default function Component() {
             </div>
           </div>
 
-          <div className="w-full py-12 md:py-16">
-            <div className="container px-4 md:px-6">
+          <div className="w-full py-12 lg:py-16">
+            <div className="container px-4 lg:px-6">
               <div className="flex justify-center">
                 <Image
                   src="/assets/woman_using_app.jpg"
@@ -257,19 +257,19 @@ export default function Component() {
         {/* Image Section */}
 
         {/* How It Works */}
-        <section id="how-it-works" className="w-full py-12 md:py-16 bg-[#fffcf0]">
-          <div className="container px-4 md:px-6">
+        <section id="how-it-works" className="w-full py-12 lg:py-16 bg-[#fffcf0]">
+          <div className="container px-4 lg:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center mb-12">
-              <h2 className="text-4xl font-bold tracking-tighter md:text-7xl text-gray-900">How Nyumbani Care works</h2>
+              <h2 className="text-4xl font-bold tracking-tighter lg:text-7xl text-gray-900">How Nyumbani Care works</h2>
             </div>
-            <div className="grid md:grid-cols-3 gap-8">
+            <div className="grid lg:grid-cols-3 gap-8">
               {howItWorks.map((item, index) => (
                 <div key={index} className="flex flex-col items-center text-center space-y-4">
-                  <div className="bg-[#CBF8CB] rounded-full p-6 w-28 h-28 md:w-36 md:h-36 flex items-center justify-center">
+                  <div className="bg-[#CBF8CB] rounded-full p-6 w-28 h-28 lg:w-36 lg:h-36 flex items-center justify-center">
                     <span className="text-7xl font-bold text-teal-600">{item.count}</span>
                   </div>
-                  <h3 className="text-2xl md:text-4xl font-bold">{item.name}</h3>
-                  <p className="text-gray-600 text-lg md:text-2xl max-w-[400px]">{item.description}</p>
+                  <h3 className="text-2xl lg:text-4xl font-bold">{item.name}</h3>
+                  <p className="text-gray-600 text-lg lg:text-2xl max-w-[400px]">{item.description}</p>
                 </div>
               ))}
             </div>
@@ -277,14 +277,14 @@ export default function Component() {
         </section>
 
         {/* CTA Section */}
-        <section className="w-full py-12 md:py-16 bg-teal-600">
-          <div className="container px-4 md:px-6">
+        <section className="w-full py-12 lg:py-16 bg-teal-600">
+          <div className="container px-4 lg:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
-                <h2 className="text-3xl font-bold tracking-tighter md:text-7xl text-white">
+                <h2 className="text-3xl font-bold tracking-tighter lg:text-7xl text-white">
                   Ready to Transform Your Healthcare?
                 </h2>
-                <p className="text-teal-100 md:text-2xl">
+                <p className="text-teal-100 lg:text-2xl">
                   Join thousands of users who are already experiencing the future of healthcare in Africa.
                 </p>
               </div>
@@ -303,10 +303,10 @@ export default function Component() {
 
       {/* Footer */}
       <footer className="w-full py-6 bg-white border-t">
-        <div className="mx-8 px-4 md:px-6">
-          <div className="flex flex-col md:justify-between md:flex-row gap-8">
+        <div className="mx-8 px-4 lg:px-6">
+          <div className="flex flex-col lg:justify-between lg:flex-row gap-8">
             <div className="">
-              <div className="hidden md:flex items-center">
+              <div className="hidden lg:flex items-center">
                 <Heart className="h-10 w-10 text-teal-700" />
                 <h1 className="ml-2 text-4xl font-bold text-teal-700">NyumbaniCare</h1>
               </div>
@@ -325,9 +325,9 @@ export default function Component() {
                   </a>
                 ))}
               </div>
-              <h3 className="hidden md:block text-xl text-gray-500 mt-8">© 2025 NyumbaniCare</h3>
+              <h3 className="hidden lg:block text-xl text-gray-500 mt-8">© 2025 NyumbaniCare</h3>
             </div>
-            <div className="flex flex-col md:flex-row gap-12">
+            <div className="flex flex-col lg:flex-row gap-12">
               {footerLinks.map((link, index) => (
                 <div key={index}>
                   <h3 className="text-2xl font-medium text-gray-900 mb-4">{link.category}</h3>
@@ -343,12 +343,12 @@ export default function Component() {
                 </div>
               ))}
             </div>
-            <div className="md:hidden flex items-center">
+            <div className="lg:hidden flex items-center">
               <Heart className="h-10 w-10 text-teal-700" />
               <h1 className="ml-2 text-4xl font-bold text-teal-700">NyumbaniCare</h1>
             </div>
 
-            <h3 className="block md:hidden text-xl text-gray-500 -mt-4">© 2025 NyumbaniCare</h3>
+            <h3 className="block lg:hidden text-xl text-gray-500 -mt-4">© 2025 NyumbaniCare</h3>
           </div>
         </div>
       </footer>
