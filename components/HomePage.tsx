@@ -54,7 +54,7 @@ const footerLinks = [
     category: "Support",
     links: [
       { name: "Help Center", href: "#" },
-      { name: "Contact Us", href: "#" },
+      { name: "Contact Us", href: "/contact" },
       { name: "Privacy Policy", href: "#" },
       { name: "Terms of Service", href: "#" },
     ]
@@ -82,13 +82,13 @@ const howItWorks = [
 const socials = [
   { name: "Facebook", href: "#", image: SiFacebook },
   { name: "X", href: "#", image: SiX },
-  { name: "Instagram", href: "#", image: SiInstagram },
+  { name: "Instagram", href: "https://www.instagram.com/nyumbanicare.app/", image: SiInstagram },
   { name: "LinkedIn", href: "#", image: SiLinkedin },
 ];
 
 export default function Component() {
   return (
-    <div className="flex flex-col min-h-screen bg-[#fffff0]">
+    <div className="flex flex-col min-h-screen">
       <main className="flex-1">
         <section className="w-full py-12 lg:py-16">
           <div className="mx-8 px-4 lg:px-6">
@@ -257,7 +257,7 @@ export default function Component() {
         {/* Image Section */}
 
         {/* How It Works */}
-        <section id="how-it-works" className="w-full py-12 lg:py-16 bg-[#fffcf0]">
+        <section id="how-it-works" className="w-full py-12 lg:py-16">
           <div className="container px-4 lg:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center mb-12">
               <h2 className="text-4xl font-bold tracking-tighter lg:text-7xl text-gray-900">How Nyumbani Care works</h2>
