@@ -35,9 +35,6 @@ importers:
       react-icons:
         specifier: ^5.5.0
         version: 5.5.0(react@19.1.0)
-      simple-icons:
-        specifier: ^15.1.0
-        version: 15.1.0
       tailwind-merge:
         specifier: ^3.3.0
         version: 3.3.0
@@ -787,10 +784,6 @@ packages:
     resolution: {integrity: sha512-lszvBmB9QURERtyKT2bNmsgxXK0ShJrL/fvqlonCo7e6xBF8nT8xU6pW+PMIbLsz0RxQk3rgH9kd8UmvOzlMJg==}
     engines: {node: ^18.17.0 || ^20.3.0 || >=21.0.0}
 
-  simple-icons@15.1.0:
-    resolution: {integrity: sha512-7wj0OeOJvGSgNEIrMm1MGhoX7CEV5R+T0Q5HmXzfakrue84qCZNV9l9eG092c14BbiuGgljdwFkLy3rQQaDJyg==}
-    engines: {node: '>=0.12.18'}
-
   simple-swizzle@0.2.2:
     resolution: {integrity: sha512-JA//kQgZtbuY83m+xT+tXJkmJncGMTFT+C+g2h2R9uxkYIrE2yy9sgmcLhCnw57/WSD+Eh3J97FPEDFnbXnDUg==}
 
@@ -1475,8 +1468,6 @@ snapshots:
       '@img/sharp-win32-ia32': 0.34.2
       '@img/sharp-win32-x64': 0.34.2
     optional: true
-
-  simple-icons@15.1.0: {}
 
   simple-swizzle@0.2.2:
     dependencies:
