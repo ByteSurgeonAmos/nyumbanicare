@@ -319,7 +319,7 @@ export default function Component() {
         <div className="mx-8 px-4 md:px-6">
           <div className="flex flex-col md:justify-between md:flex-row gap-8">
             <div className="">
-              <div className="flex items-center">
+              <div className="hidden md:flex items-center">
                 <Heart className="h-10 w-10 text-teal-700" />
                 <h1 className="ml-2 text-4xl font-bold text-teal-700">NyumbaniCare</h1>
               </div>
@@ -356,7 +356,12 @@ export default function Component() {
                 </div>
               ))}
             </div>
-            <h3 className="block md:hidden text-xl text-gray-500 mt-8">© 2025 NyumbaniCare</h3>
+            <div className="md:hidden flex items-center">
+              <Heart className="h-10 w-10 text-teal-700" />
+              <h1 className="ml-2 text-4xl font-bold text-teal-700">NyumbaniCare</h1>
+            </div>
+
+            <h3 className="block md:hidden text-xl text-gray-500 -mt-4">© 2025 NyumbaniCare</h3>
           </div>
         </div>
       </footer>
