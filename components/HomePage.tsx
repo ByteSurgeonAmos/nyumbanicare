@@ -1,12 +1,10 @@
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
 import { Card, CardContent } from "@/components/ui/card"
-import { Heart, Smartphone, Stethoscope, CheckCircle, TestTube, Pill, FileText } from "lucide-react"
+import { CheckCircle, FileText, Heart, Pill, Smartphone, Stethoscope, TestTube } from "lucide-react"
 import Image from "next/image"
-import Link from "next/link";
+import Link from "next/link"
+import { SiFacebook, SiInstagram, SiLinkedin, SiX } from "react-icons/si"
 import HomeNav from "./HomeNav"
-import MobileHomeNav from "./MobileHomeNav";
-import { SiFacebook, SiLinkedin, SiX, SiInstagram } from "react-icons/si";
+import MobileHomeNav from "./MobileHomeNav"
 
 const services = [
   { 
@@ -319,7 +317,7 @@ export default function Component() {
       {/* Footer */}
       <footer className="w-full py-6 bg-white border-t">
         <div className="mx-8 px-4 md:px-6">
-          <div className="flex flex-col md:flex-col gap-8">
+          <div className="flex flex-col md:justify-between md:flex-row gap-8">
             <div className="">
               <div className="flex items-center">
                 <Heart className="h-10 w-10 text-teal-700" />
@@ -342,7 +340,7 @@ export default function Component() {
               </div>
               <h3 className="hidden md:block text-xl text-gray-500 mt-8">© 2025 NyumbaniCare</h3>
             </div>
-            <div className="flex flex-col md:flex-row gap-12 md:ml-auto">
+            <div className="flex flex-col md:flex-row gap-12">
               {footerLinks.map((link, index) => (
                 <div key={index}>
                   <h3 className="text-2xl font-medium text-gray-900 mb-4">{link.category}</h3>
