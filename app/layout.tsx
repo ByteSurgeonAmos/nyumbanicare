@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { League_Spartan, Roboto_Condensed } from "next/font/google";
 import "./globals.css";
+import HomeHeader from "@/components/HomeHeader";
 
 const leagueSpartan = League_Spartan({
   variable: "--font-league-spartan",
@@ -27,6 +28,7 @@ export default function RootLayout({
       <body
         className={`${leagueSpartan.variable} ${roboto.variable} antialiased`}
       >
+        <HomeHeader />
         {children}
       </body>
     </html>

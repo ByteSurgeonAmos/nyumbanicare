@@ -3,8 +3,6 @@ import { CheckCircle, FileText, Heart, Pill, Smartphone, Stethoscope, TestTube }
 import Image from "next/image"
 import Link from "next/link"
 import { SiFacebook, SiInstagram, SiLinkedin, SiX } from "react-icons/si"
-import HomeNav from "./HomeNav"
-import MobileHomeNav from "./MobileHomeNav"
 
 const services = [
   { 
@@ -91,18 +89,7 @@ const socials = [
 export default function Component() {
   return (
     <div className="flex flex-col min-h-screen bg-[#fffff0]">
-      {/* Header */}
-      <header className="px-4 lg:px-6 h-16 flex items-center justify-between sticky top-0 z-50 bg-white">
-        <Link href="/" className="flex items-center justify-center">
-          <Heart className="h-10 w-10 text-teal-600" />
-          <h1 className="ml-2 text-4xl font-bold text-teal-700">NyumbaniCare</h1>
-        </Link>
-        <HomeNav />
-        <MobileHomeNav />
-      </header>
-
       <main className="flex-1">
-        {/* Hero Section */}
         <section className="w-full py-12 md:py-16">
           <div className="mx-8 px-4 md:px-6">
             <div className="flex flex-col md:flex-row items-center">
