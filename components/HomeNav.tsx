@@ -4,7 +4,7 @@ import React from 'react';
 
 const HomeNav = () => {
   return (
-    <nav className="ml-auto hidden md:flex gap-4 text-xl sm:gap-6 items-center">
+    <nav className="hidden md:flex gap-4 text-xl sm:gap-6 items-center">
       {navLinks.map((link, index) => (
       <Link
         href={link.href}
