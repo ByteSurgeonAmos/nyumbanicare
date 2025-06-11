@@ -112,7 +112,7 @@ export default function Component() {
                   </p>
                 </div>
                 <div className="flex flex-wrap gap-4 justify-center lg:items-start">
-                  <Link href="/contact" className="bg-[#00796B] text-xl lg:text-2xl hover:bg-teal-700 text-white rounded-full  px-3 py-2 lg:w-[200px] lg:h-[72px]">
+                  <Link href="/contact" className="bg-[#00796B] text-xl lg:text-2xl hover:bg-teal-700 text-white rounded-full text-center px-3 py-2 lg:w-[200px] lg:h-[72px]">
                     Join Beta
                   </Link>
                   <button
