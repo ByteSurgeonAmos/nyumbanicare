@@ -92,7 +92,7 @@ const careSenseFeatures = [
   { icon: Heart, heading: "Health Tracking", description: "Store results in your digital health profile for long-term monitoring." },
 ];
 
-export default function Component() {
+export default function HomePage() {
   return (
     <div className="flex flex-col min-h-screen">
       <main className="flex-1">
@@ -161,7 +161,7 @@ export default function Component() {
                 {careSenseFeatures.map((item, index) => (
                   <div key={index} className="flex items-start gap-4">
                     <div className="mt-1">
-                      <div className="bg-[#CBF8CB] rounded-full p-2 w-10 h-10 flex items-center justify-center">
+                      <div className="bg-[#CBF8CB] rounded-full p-2 w-12 h-12 flex items-center justify-center">
                         <item.icon className="w-12 h-12 text-teal-700" />
                       </div>
                     </div>
@@ -201,7 +201,7 @@ export default function Component() {
               <Card key={index} className="border border-gray-200 bg-white">
                 <CardContent className="p-6">
                   <div className="mb-4">
-                    <div className="bg-[#CBF8CB] rounded-full p-2 w-10 h-10 flex items-center justify-center">
+                    <div className="bg-[#CBF8CB] rounded-full p-2 w-12 h-12 flex items-center justify-center">
                       <service.icon className="w-12 h-12 text-teal-600" />
                     </div>
                   </div>
