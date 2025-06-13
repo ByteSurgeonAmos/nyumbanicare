@@ -23,7 +23,7 @@ const Page = () => {
             As a beta user, you'll get a first look at new features and help us build a platform that truly works for you.
           </p>
 
-          <p className="inline-block rounded-full bg-[#CBF8CB] px-3 py-1 text-[8px] lg:text-sm text-[#00796B] lg:ml-10 mb-2">
+          <p className="inline-block rounded-full bg-[#CBF8CB] px-3 py-1 text-[8px] lg:text-sm text-[#00796B] text-center lg:ml-10 mb-2">
             Your privacy matters. We'll only use your information to keep you updated — no spam, ever.
           </p>
         </div>
