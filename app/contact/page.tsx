@@ -10,14 +10,14 @@ const Page = () => {
 
       <div className='flex flex-col lg:flex-row lg:justify-between gap-8'>
         <div className='space-y-4 max-w-[750px] flex flex-col items-center'>
-          <h2 className='text-3xl font-bold text-teal-700'>Stay Connected. Shape the Future of Health.</h2>
+          <h2 className='text-3xl font-bold text-teal-700 text-center'>Stay Connected. Shape the Future of Health.</h2>
           <p className='text-center'>
             At Nyumbani Care, we're reimagining healthcare to be more accessible, private, and personal — 
             right from the comfort of your home.
             Whether you have a question, feedback, or want to be part of something transformative, we'd love to hear from you.
           </p>
 
-          <h2 className='text-3xl font-bold text-teal-700'>Be Part of the Beta</h2>
+          <h2 className='text-3xl font-bold text-teal-700 text-center'>Be Part of the Beta</h2>
           <p className='text-center'>
             Sign up now for early access, exclusive updates, and a direct role in shaping the future of telehealth in East Africa.
             As a beta user, you'll get a first look at new features and help us build a platform that truly works for you.
