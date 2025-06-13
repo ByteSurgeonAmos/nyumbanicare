@@ -86,7 +86,13 @@ const socials = [
   { name: "LinkedIn", href: "#", image: SiLinkedin },
 ];
 
-export default function Component() {
+const careSenseFeatures = [
+  { icon: Smartphone, heading: "Instant Scanning", description: "Point your camera at any rapid test for immediate analysis." },
+  { icon: CheckCircle, heading: "Accurate Results", description: "Get reliable interpretations with confidence scores and recommendations." },
+  { icon: Heart, heading: "Health Tracking", description: "Store results in your digital health profile for long-term monitoring." },
+];
+
+export default function HomePage() {
   return (
     <div className="flex flex-col min-h-screen">
       <main className="flex-1">
@@ -152,43 +158,19 @@ export default function Component() {
             </div>
             <div className="grid lg:grid-cols-2 gap-8 items-center">
               <div className="space-y-6">
-                <div className="flex items-start gap-4">
-                  <div className="mt-1">
-                    <div className="bg-[#CBF8CB] rounded-full p-2 w-10 h-10 flex items-center justify-center">
-                      <Smartphone className="w-12 h-12 text-teal-700" />
+                {careSenseFeatures.map((item, index) => (
+                  <div key={index} className="flex items-start gap-4">
+                    <div className="mt-1">
+                      <div className="bg-[#CBF8CB] rounded-full p-2 w-12 h-12 flex items-center justify-center">
+                        <item.icon className="w-12 h-12 text-teal-700" />
+                      </div>
+                    </div>
+                    <div>
+                      <h3 className="text-xl lg:text-3xl font-bold">{item.heading}</h3>
+                      <p className="text-gray-600 lg:text-xl">{item.description}</p>
                     </div>
                   </div>
-                  <div>
-                    <h3 className="text-xl font-bold">Instant Scanning</h3>
-                    <p className="text-gray-600">Point your camera at any rapid test for immediate analysis.</p>
-                  </div>
-                </div>
-                <div className="flex items-start gap-4">
-                  <div className="mt-1">
-                    <div className="bg-[#CBF8CB] rounded-full p-2 w-10 h-10 flex items-center justify-center">
-                      <CheckCircle className="w-12 h-12 text-teal-700" />
-                    </div>
-                  </div>
-                  <div>
-                    <h3 className="text-xl font-bold">Accurate Results</h3>
-                    <p className="text-gray-600">
-                      Get reliable interpretations with confidence scores and recommendations.
-                    </p>
-                  </div>
-                </div>
-                <div className="flex items-start gap-4">
-                  <div className="mt-1">
-                    <div className="bg-[#CBF8CB] rounded-full p-2 w-10 h-10 flex items-center justify-center">
-                      <Heart className="w-12 h-12 text-teal-700" />
-                    </div>
-                  </div>
-                  <div>
-                    <h3 className="text-xl font-bold">Health Tracking</h3>
-                    <p className="text-gray-600">
-                      Store results in your digital health profile for long-term monitoring.
-                    </p>
-                  </div>
-                </div>
+                ))}
               </div>
               <div className="flex justify-center">
                 <Image
@@ -219,7 +201,7 @@ export default function Component() {
               <Card key={index} className="border border-gray-200 bg-white">
                 <CardContent className="p-6">
                   <div className="mb-4">
-                    <div className="bg-[#e8f5e9] rounded-full p-2 w-10 h-10 flex items-center justify-center">
+                    <div className="bg-[#CBF8CB] rounded-full p-2 w-12 h-12 flex items-center justify-center">
                       <service.icon className="w-12 h-12 text-teal-600" />
                     </div>
                   </div>
