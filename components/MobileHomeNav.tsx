@@ -25,8 +25,8 @@ const MobileHomeNav = () => {
         <SheetContent>
           <SheetTitle className="sr-only">Navigation Menu</SheetTitle>
           <Link href="/" className="flex items-center justify-center mt-24">
-            <Heart className="h-10 w-10 text-teal-600" />
-            <h1 className="ml-2 text-4xl font-bold text-teal-700">NyumbaniCare</h1>
+            <Heart className="h-6 w-6 text-teal-600" />
+            <h1 className="ml-2 text-2xl font-bold text-teal-700">NyumbaniCare</h1>
           </Link>
 
           <nav className="flex flex-col gap-4 text-xl sm:gap-6 items-center">
